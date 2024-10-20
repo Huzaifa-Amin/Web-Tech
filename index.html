@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Web Developer Portfolio">
+    <meta name="author" content="Your Name">
+    <title>Portfolio - Huzaifa Amin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio <br> <span>I'm Huzaifa Amin</span></h1>
+            <p>A passionate Web Developer and Designer with over 3+ years of experience in creating visually stunning and highly functional websites.</p>
+            <br>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With a strong background in both front-end and back-end development, I enjoy bringing creative ideas to life. My expertise lies in HTML, CSS, JavaScript, and various frameworks, which enable me to build robust applications that enhance user experience.</p> <br>
+        <p>When I'm not coding, I love exploring new technologies, contributing to open-source projects, and honing my skills through continuous learning.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2> <br>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="app">App Development</button>
+        </div><br>
+        <div class="project-grid">
+            <div class="project-card web">
+                <h3>Responsive Portfolio Website</h3>
+                <p>A modern portfolio website showcasing my projects and skills, built using HTML, CSS, JS.</p> <br>
+                <a href="https://project1.com" target="_blank">View Project</a>
+            </div>
+            <div class="project-card app">
+                <h3>E-commerce Application</h3>
+                <p>An interactive e-commerce platform developed with React and Node.js, providing seamless shopping experiences.</p> <br>
+                <a href="https://project2.com" target="_blank">View Project</a>
+            </div>
+            <div class="project-card web">
+                <h3>Blog Platform</h3>
+                <p>A user-friendly blogging platform built with WordPress, allowing users to create and share content easily.</p> <br>
+                <a href="https://project3.com" target="_blank">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <p>Expert in crafting semantic and accessible HTML structures.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <p>Proficient in creating responsive designs using Flexbox and Grid Layout.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Skilled in writing clean, efficient, and modular JavaScript code.</p>
+            </div>
+            <div class="skill">
+                <h3>React.js</h3>
+                <p>Experienced in building dynamic user interfaces with React.</p>
+            </div>
+            <div class="skill">
+                <h3>Node.js</h3>
+                <p>Proficient in server-side development using Node.js and Express.</p>
+            </div>
+            <div class="skill">
+                <h3>Git & GitHub</h3>
+                <p>Familiar with version control and collaborative development using Git and GitHub.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"A highly skilled developer with a keen eye for design. Delivered my project on time and exceeded my expectations!"</p> <br>
+            <p>- Umar Shehzad</p>
+        </div>
+        <div class="testimonial">
+            <p>"Their attention to detail and ability to problem-solve are truly impressive. I highly recommend them!"</p> <br>
+            <p>- Hamza Rashid</p>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </section>
+
+    <section id="social-media">
+        <h2>Connect with Me</h2>
+        <a href="https://github.com/" target="_blank" ><img src="github-icon.png" alt="GitHub"></a>
+        <a href="https://linkedin.com/in/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Huzaifa Amin. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
